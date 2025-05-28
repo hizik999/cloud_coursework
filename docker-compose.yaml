@@ -5,13 +5,21 @@ networks:
   etl-network:
     driver: bridge
 
+# ------------------- Тома -------------------
+volumes:
+  minio-data:
+  postgres-data:
+  clickhouse-data:
+
 services:
   # ---------- MinIO (S3-совместимое хранилище) ----------
   minio:
     image: minio/minio
     container_name: minio
+    networks:
+      - etl-network
     volumes:
-      - ./minio-data:/data
+      - minio-data:/data
     ports:
       - "9000:9000"   # S3 API
       - "9001:9001"   # Web UI
@@ -20,29 +28,29 @@ services:
       MINIO_ROOT_PASSWORD: minioadmin
     command: server /data --console-address ":9001"
     restart: unless-stopped
-    networks:
-      - etl-network
 
   # ---------- Spark Master ----------
   spark-master:
     image: bitnami/spark:3.3.1
     platform: linux/amd64
     container_name: spark-master
+    networks:
+      - etl-network
     environment:
       SPARK_MODE: master
+      SPARK_MASTER_HOST: spark-master
       SPARK_DAEMON_JAVA_OPTS: >-
+        -Dspark.hadoop.fs.s3a.impl=org.apache.hadoop.fs.s3a.S3AFileSystem
         -Dspark.hadoop.fs.s3a.endpoint=http://minio:9000
         -Dspark.hadoop.fs.s3a.access.key=minioadmin
         -Dspark.hadoop.fs.s3a.secret.key=minioadmin
         -Dspark.hadoop.fs.s3a.path.style.access=true
+        -Dspark.hadoop.fs.s3a.connection.ssl.enabled=false
     ports:
       - "7077:7077"
       - "8080:8080"
     volumes:
-      - ./spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf:rw
-      - ./spark/process_csv.py:/opt/bitnami/spark/apps/process_csv.py:rw
-    networks:
-      - etl-network
+      - ./spark/scripts/process_raw_trn.py:/opt/bitnami/spark/apps/process_raw_trn.py:ro
     deploy:
       resources:
         limits:
@@ -54,18 +62,20 @@ services:
     image: bitnami/spark:3.3.1
     platform: linux/amd64
     container_name: spark-worker
+    networks:
+      - etl-network
     depends_on:
       - spark-master
     environment:
       SPARK_MODE: worker
       SPARK_MASTER_URL: spark://spark-master:7077
       SPARK_DAEMON_JAVA_OPTS: >-
+        -Dspark.hadoop.fs.s3a.impl=org.apache.hadoop.fs.s3a.S3AFileSystem
         -Dspark.hadoop.fs.s3a.endpoint=http://minio:9000
         -Dspark.hadoop.fs.s3a.access.key=minioadmin
         -Dspark.hadoop.fs.s3a.secret.key=minioadmin
         -Dspark.hadoop.fs.s3a.path.style.access=true
-    networks:
-      - etl-network
+        -Dspark.hadoop.fs.s3a.connection.ssl.enabled=false
     deploy:
       resources:
         limits:
@@ -76,6 +86,8 @@ services:
   postgres:
     image: postgres:13
     container_name: airflow-postgres
+    networks:
+      - etl-network
     restart: unless-stopped
     environment:
       POSTGRES_USER: airflow
@@ -83,42 +95,26 @@ services:
       POSTGRES_DB: airflow
     volumes:
       - postgres-data:/var/lib/postgresql/data
-    networks:
-      - etl-network
 
-  # ---------- Redis для Celery Broker и Backend ----------
-  redis:
-    image: redis:6
-    container_name: redis
-    restart: unless-stopped
-    ports:
-      - "6379:6379"
-    networks:
-      - etl-network
-    deploy:
-      resources:
-        limits:
-          memory: 512m
-          cpus: '0.5'
 
-  # ---------- Инициализация Airflow (DB init + админ) ----------
+  # ---------- Инициализация Airflow ----------
   airflow-init:
     image: apache/airflow:2.6.3
     container_name: airflow-init
+    networks:
+      - etl-network
     depends_on:
       - postgres
     environment:
-      AIRFLOW__CORE__EXECUTOR: CeleryExecutor
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__CORE__FERNET_KEY: '8RsawjB0bMwBpoBxyWsxo8qR0aEMd0k724GXchilCO4='
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
-      AIRFLOW__CELERY__BROKER_URL: redis://redis:6379/0
-      AIRFLOW__CELERY__RESULT_BACKEND: redis://redis:6379/1
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
-    entrypoint: >-
-      bash -c "airflow db init && \
+    entrypoint: >
+      bash -c "airflow db init &&
                 airflow users create \
                   --username admin \
                   --password admin \
@@ -127,75 +123,74 @@ services:
                   --role Admin \
                   --email admin@example.com"
     restart: 'no'
+
+  # ---------- Airflow Webserver (с поддержкой SparkSubmitOperator) ----------
+  airflow-webserver:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    image: my-airflow:2.6.3-spark
+    container_name: airflow-webserver
     networks:
       - etl-network
-
-  # ---------- Airflow Webserver ----------
-  airflow-webserver:
-    image: apache/airflow:2.6.3
-    container_name: airflow-webserver
     depends_on:
       - postgres
       - airflow-init
-      - redis
     environment:
-      AIRFLOW__CORE__EXECUTOR: CeleryExecutor
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__CORE__FERNET_KEY: '8RsawjB0bMwBpoBxyWsxo8qR0aEMd0k724GXchilCO4='
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
-      AIRFLOW__CELERY__BROKER_URL: redis://redis:6379/0
-      AIRFLOW__CELERY__RESULT_BACKEND: redis://redis:6379/1
       AIRFLOW__WEBSERVER__RBAC: 'true'
+      # автоконнект spark_default
+      AIRFLOW_CONN_SPARK_DEFAULT: "spark://spark-master:7077"
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
+      # сюда монтируем ваш sparс-скрипт
+      - ./spark/scripts:/opt/airflow/spark/scripts:ro
     ports:
       - "8081:8080"
     command: webserver
     restart: unless-stopped
+
+  # ---------- Airflow Scheduler (с поддержкой SparkSubmitOperator) ----------
+  airflow-scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    image: my-airflow:2.6.3-spark
+    container_name: airflow-scheduler
     networks:
       - etl-network
-
-  # ---------- Airflow Scheduler ----------
-  airflow-scheduler:
-    image: apache/airflow:2.6.3
-    container_name: airflow-scheduler
     depends_on:
       - airflow-webserver
-      - redis
     environment:
-      AIRFLOW__CORE__EXECUTOR: CeleryExecutor
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__CORE__FERNET_KEY: '8RsawjB0bMwBpoBxyWsxo8qR0aEMd0k724GXchilCO4='
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
-      AIRFLOW__CELERY__BROKER_URL: redis://redis:6379/0
-      AIRFLOW__CELERY__RESULT_BACKEND: redis://redis:6379/1
+      # автоконнект spark_default
+      AIRFLOW_CONN_SPARK_DEFAULT: "spark://spark-master:7077"
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
+      # сюда монтируем ваш sparс-скрипт
+      - ./spark/scripts:/opt/airflow/spark/scripts:ro
     command: scheduler
     restart: unless-stopped
-    networks:
-      - etl-network
 
-  # ---------- ClickHouse (для чтения Parquet через S3) ----------
+  # ---------- ClickHouse для чтения Parquet через S3 ----------
   clickhouse:
     image: yandex/clickhouse-server:latest
     platform: linux/amd64
     container_name: clickhouse
-    volumes:
-      - clickhouse-data:/var/lib/clickhouse
-    ports:
-      - "8123:8123"    # HTTP
-      - "8124:9000"    # TCP (host:container)
-    environment:
-      CLICKHOUSE_DB: default
     networks:
       - etl-network
-
-
-# ------------------- Тома -------------------
-volumes:
-  minio-data:
-  postgres-data:
-  clickhouse-data:
+    environment:
+      CLICKHOUSE_DB: default
+    ports:
+      - "8123:8123"    # HTTP
+      - "8124:9000"    # TCP
+    volumes:
+      - clickhouse-data:/var/lib/clickhouse

@@ -1,0 +1,50 @@
+# Dockerfile.airflow
+FROM apache/airflow:2.6.3
+
+USER root
+
+# 1) Системные зависимости: Java, procps (для ps), wget, tar, gzip
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends \
+      default-jdk-headless \
+      procps \
+      wget \
+      tar \
+      gzip \
+ && rm -rf /var/lib/apt/lists/*
+
+# 2) Скачиваем Spark 3.3.1 с Hadoop3 и распаковываем в /opt/spark
+RUN mkdir -p /opt/spark \
+ && wget -qO- https://archive.apache.org/dist/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz \
+      | tar -xz --strip-components=1 -C /opt/spark
+
+# 2-bis) Подтягиваем JAR-ы для S3A (hadoop-aws и aws-java-sdk-bundle)
+ENV HADOOP_VER=3.3.1 \
+    AWS_BUNDLE_VER=1.12.640
+
+RUN curl -L -o /tmp/hadoop-aws-${HADOOP_VER}.jar \
+        https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/${HADOOP_VER}/hadoop-aws-${HADOOP_VER}.jar \
+ && curl -L -o /tmp/aws-java-sdk-bundle-${AWS_BUNDLE_VER}.jar \
+        https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/${AWS_BUNDLE_VER}/aws-java-sdk-bundle-${AWS_BUNDLE_VER}.jar \
+ && mv /tmp/*.jar /opt/spark/jars/
+
+# 3) Прописать JAVA_HOME прямо в spark-env.sh, 
+#    чтобы spark-class его всегда читал
+RUN bash -lc 'JAVA_PATH="$(dirname $(dirname $(readlink -f "$(which java)")))" \
+ && echo "export JAVA_HOME=${JAVA_PATH}" >> /opt/spark/conf/spark-env.sh'
+
+# 4) Сделать spark-submit доступным в PATH
+RUN ln -s /opt/spark/bin/spark-submit /usr/local/bin/spark-submit
+
+# 5) Положим Spark домой и добавим его в PATH (необязательно, spark-submit уже в /usr/local/bin)
+ENV SPARK_HOME=/opt/spark
+
+# 6) Возвращаемся на пользователя airflow и ставим провайдеры в --user
+USER airflow
+
+RUN pip install --user \
+      apache-airflow-providers-apache-spark \
+      pyspark==3.3.1
+
+# 7) Добавляем ~/.local/bin, где pip --user кладёт бинарники
+ENV PATH="/home/airflow/.local/bin:${PATH}"

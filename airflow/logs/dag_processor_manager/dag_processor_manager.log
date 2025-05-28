@@ -46,3 +46,2462 @@
 [2025-05-27T19:16:26.889+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
 [2025-05-27T19:16:26.893+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
 [2025-05-27T19:17:26.593+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T13:36:34.877+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T13:36:34.878+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T13:36:34.879+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T13:36:34.879+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T13:36:34.881+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T13:41:35.534+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T13:41:35.537+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T13:41:36.336+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T13:42:41.499+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T13:42:41.500+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T13:42:41.500+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T13:42:41.500+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T13:42:41.502+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T13:47:41.764+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T13:47:41.769+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T13:52:42.204+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T13:52:42.213+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T13:57:43.013+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T13:57:43.015+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T14:02:43.357+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T14:02:43.360+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T14:05:15.077+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T14:05:59.186+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T14:05:59.187+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T14:05:59.187+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T14:05:59.188+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T14:05:59.189+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T14:10:11.558+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T14:10:38.292+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T14:10:38.293+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T14:10:38.297+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T14:10:38.300+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T14:10:38.304+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T14:14:44.465+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T14:15:26.881+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T14:15:26.882+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T14:15:26.882+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T14:15:26.883+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T14:15:26.884+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T14:20:26.962+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T14:20:26.965+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T14:23:41.726+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T14:24:27.092+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T14:24:27.092+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T14:24:27.092+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T14:24:27.093+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T14:24:27.094+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T14:29:27.928+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T14:29:27.931+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T14:34:28.829+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T14:34:28.833+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T14:39:29.713+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T14:39:29.716+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T14:42:46.629+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T14:43:19.582+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T14:43:19.583+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T14:43:19.583+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T14:43:19.584+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T14:43:19.585+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T14:48:20.178+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T14:48:20.193+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T14:49:59.803+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T14:50:19.118+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T14:50:19.119+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T14:50:19.121+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T14:50:19.121+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T14:50:19.124+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T14:55:20.052+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T14:55:20.056+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T14:56:18.311+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T14:56:52.768+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T14:56:52.770+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T14:56:52.771+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T14:56:52.771+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T14:56:52.772+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T15:01:52.968+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T15:01:52.973+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T15:06:53.675+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T15:06:53.680+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T15:11:54.304+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T15:11:54.309+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T15:14:23.987+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T15:15:08.132+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T15:15:08.133+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T15:15:08.133+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T15:15:08.134+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T15:15:08.140+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T15:20:08.779+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T15:20:08.783+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T15:25:09.197+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T15:25:09.201+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T15:30:09.927+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T15:30:09.933+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T15:30:50.838+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T15:31:27.024+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T15:31:27.025+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T15:31:27.026+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T15:31:27.026+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T15:31:27.031+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T15:36:27.906+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T15:36:27.932+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T15:41:28.412+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T15:41:28.418+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T15:46:28.790+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T15:46:28.803+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T15:51:29.088+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T15:51:29.099+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T15:56:29.934+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T15:56:29.937+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T16:01:30.619+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T16:01:30.622+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T16:06:31.461+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T16:06:31.468+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T16:07:21.383+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T16:08:31.570+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T16:08:31.571+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T16:08:31.573+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T16:08:31.574+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T16:08:31.578+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T16:13:31.628+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T16:13:31.636+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T16:17:17.826+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T16:17:46.833+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T16:17:46.834+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T16:17:46.834+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T16:17:46.835+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T16:17:46.836+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T16:22:47.216+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T16:22:47.220+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T16:27:42.074+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T16:28:21.050+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T16:28:21.054+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T16:28:21.055+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T16:28:21.058+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T16:28:21.060+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T16:33:21.667+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T16:33:21.673+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T16:38:22.049+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T16:38:22.052+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T16:38:38.595+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T16:39:06.321+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T16:39:06.322+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T16:39:06.322+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T16:39:06.323+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T16:39:06.326+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T16:44:07.256+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T16:44:07.260+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T16:49:08.170+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T16:49:08.177+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T16:54:08.919+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T16:54:08.926+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T16:59:09.487+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T16:59:09.495+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T17:04:09.922+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T17:04:09.925+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T17:09:10.031+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T17:09:10.035+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T17:10:34.047+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T17:11:19.134+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T17:11:19.135+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T17:11:19.136+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T17:11:19.137+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T17:11:19.138+0000] {manager.py:761} INFO - There are 0 files in /opt/airflow/dags
+[2025-05-28T17:14:23.186+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T17:18:44.578+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T17:18:44.579+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T17:18:44.579+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T17:18:44.580+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T17:18:44.586+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T17:18:44.649+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py     29  0.03s             0           0
+================================================================================
+[2025-05-28T17:19:14.903+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     30  0.01s             0           1  0.05s           2025-05-28T17:18:44
+================================================================================
+[2025-05-28T17:19:16.193+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T17:20:50.179+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T17:20:50.180+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T17:20:50.181+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T17:20:50.181+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T17:20:50.184+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T17:20:50.244+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py     30  0.03s             0           0
+================================================================================
+[2025-05-28T17:21:20.423+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     31  0.02s             0           1  0.05s           2025-05-28T17:20:50
+================================================================================
+[2025-05-28T17:21:50.815+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     32  0.02s             0           1  0.10s           2025-05-28T17:21:20
+================================================================================
+[2025-05-28T17:22:21.083+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     33  0.02s             0           1  0.07s           2025-05-28T17:21:50
+================================================================================
+[2025-05-28T17:22:51.435+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     34  0.05s             0           1  0.07s           2025-05-28T17:22:21
+================================================================================
+[2025-05-28T17:23:21.816+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     35  0.04s             0           1  0.10s           2025-05-28T17:22:51
+================================================================================
+[2025-05-28T17:23:52.210+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     36  0.03s             0           1  0.10s           2025-05-28T17:23:21
+================================================================================
+[2025-05-28T17:24:04.108+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T17:26:53.138+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T17:26:53.139+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T17:26:53.141+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T17:26:53.147+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T17:26:53.171+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T17:26:53.318+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py     30  0.07s             0           0
+================================================================================
+[2025-05-28T17:27:24.028+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     31  0.01s             0           1  0.13s           2025-05-28T17:26:53
+================================================================================
+[2025-05-28T17:27:54.170+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.20s           2025-05-28T17:27:24
+================================================================================
+[2025-05-28T17:28:25.160+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.09s           2025-05-28T17:27:55
+================================================================================
+[2025-05-28T17:28:55.656+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.68s           2025-05-28T17:28:27
+================================================================================
+[2025-05-28T17:29:25.782+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.80s           2025-05-28T17:28:58
+================================================================================
+[2025-05-28T17:29:56.184+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.76s           2025-05-28T17:29:29
+================================================================================
+[2025-05-28T17:30:27.053+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.19s           2025-05-28T17:29:59
+================================================================================
+[2025-05-28T17:30:42.620+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T17:31:12.335+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T17:31:12.338+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T17:31:12.340+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T17:31:12.341+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T17:31:12.360+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T17:31:13.593+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py     29  0.05s             0           0
+================================================================================
+[2025-05-28T17:31:43.867+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     30  0.02s             1           0  0.28s           2025-05-28T17:31:13
+================================================================================
+[2025-05-28T17:32:14.456+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     31  0.02s             1           0  0.30s           2025-05-28T17:31:44
+================================================================================
+[2025-05-28T17:32:44.859+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     32  0.01s             1           0  0.28s           2025-05-28T17:32:14
+================================================================================
+[2025-05-28T17:33:15.299+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     33  0.04s             1           0  0.15s           2025-05-28T17:32:45
+================================================================================
+[2025-05-28T17:33:45.710+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     34  0.00s             1           0  0.19s           2025-05-28T17:33:15
+================================================================================
+[2025-05-28T17:34:16.215+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     35  0.02s             1           0  0.16s           2025-05-28T17:33:45
+================================================================================
+[2025-05-28T17:34:46.656+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     36  0.04s             1           0  0.17s           2025-05-28T17:34:16
+================================================================================
+[2025-05-28T17:35:17.214+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     37  0.04s             1           0  0.23s           2025-05-28T17:34:46
+================================================================================
+[2025-05-28T17:35:47.760+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.14s           2025-05-28T17:35:36
+================================================================================
+[2025-05-28T17:36:12.418+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T17:36:12.424+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T17:36:18.502+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.31s           2025-05-28T17:36:11
+================================================================================
+[2025-05-28T17:36:48.970+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.23s           2025-05-28T17:36:42
+================================================================================
+[2025-05-28T17:37:19.433+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.19s           2025-05-28T17:37:12
+================================================================================
+[2025-05-28T17:37:49.801+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.23s           2025-05-28T17:37:42
+================================================================================
+[2025-05-28T17:38:20.407+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.17s           2025-05-28T17:38:13
+================================================================================
+[2025-05-28T17:38:50.907+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.23s           2025-05-28T17:38:43
+================================================================================
+[2025-05-28T17:39:21.396+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.24s           2025-05-28T17:39:14
+================================================================================
+[2025-05-28T17:39:52.032+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.22s           2025-05-28T17:39:45
+================================================================================
+[2025-05-28T17:40:22.778+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.12s           2025-05-28T17:40:10
+================================================================================
+[2025-05-28T17:40:53.184+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.11s           2025-05-28T17:40:41
+================================================================================
+[2025-05-28T17:41:12.548+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T17:41:12.576+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T17:41:23.997+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.15s           2025-05-28T17:41:11
+================================================================================
+[2025-05-28T17:41:54.471+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.13s           2025-05-28T17:41:42
+================================================================================
+[2025-05-28T17:42:24.954+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.13s           2025-05-28T17:42:12
+================================================================================
+[2025-05-28T17:42:55.409+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.14s           2025-05-28T17:42:43
+================================================================================
+[2025-05-28T17:43:25.782+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.10s           2025-05-28T17:43:13
+================================================================================
+[2025-05-28T17:43:56.216+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.14s           2025-05-28T17:43:44
+================================================================================
+[2025-05-28T17:44:26.640+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.11s           2025-05-28T17:44:14
+================================================================================
+[2025-05-28T17:44:57.134+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.20s           2025-05-28T17:44:45
+================================================================================
+[2025-05-28T17:45:27.865+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.21s           2025-05-28T17:45:15
+================================================================================
+[2025-05-28T17:45:58.208+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.07s           2025-05-28T17:45:46
+================================================================================
+[2025-05-28T17:46:13.342+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T17:46:13.355+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T17:46:24.797+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T17:54:44.705+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T17:54:44.706+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T17:54:44.707+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T17:54:44.707+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T17:54:44.712+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T17:54:44.984+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py     30  0.07s             0           0
+================================================================================
+[2025-05-28T17:55:15.784+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     31  0.03s             0           1  0.08s           2025-05-28T17:54:44
+================================================================================
+[2025-05-28T17:55:46.181+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     32  0.05s             0           1  0.15s           2025-05-28T17:55:15
+================================================================================
+[2025-05-28T17:56:16.584+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     33  0.04s             0           1  0.16s           2025-05-28T17:55:46
+================================================================================
+[2025-05-28T17:56:47.057+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.17s           2025-05-28T17:56:32
+================================================================================
+[2025-05-28T17:57:17.627+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.19s           2025-05-28T17:57:03
+================================================================================
+[2025-05-28T17:57:48.135+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.17s           2025-05-28T17:57:34
+================================================================================
+[2025-05-28T17:58:18.379+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.46s           2025-05-28T17:58:04
+================================================================================
+[2025-05-28T17:58:48.932+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.12s           2025-05-28T17:58:23
+================================================================================
+[2025-05-28T17:59:19.362+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.37s           2025-05-28T17:58:54
+================================================================================
+[2025-05-28T17:59:44.877+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T17:59:44.894+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T17:59:49.974+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.36s           2025-05-28T17:59:24
+================================================================================
+[2025-05-28T18:00:20.512+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.27s           2025-05-28T17:59:55
+================================================================================
+[2025-05-28T18:00:51.004+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.27s           2025-05-28T18:00:25
+================================================================================
+[2025-05-28T18:01:21.765+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.33s           2025-05-28T18:00:56
+================================================================================
+[2025-05-28T18:01:52.184+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.23s           2025-05-28T18:01:27
+================================================================================
+[2025-05-28T18:02:22.693+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.29s           2025-05-28T18:01:57
+================================================================================
+[2025-05-28T18:02:47.210+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T18:04:57.138+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T18:04:57.139+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T18:04:57.139+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T18:04:57.139+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T18:04:57.142+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T18:04:57.238+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py     30  0.04s             0           0
+================================================================================
+[2025-05-28T18:05:27.584+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.10s           2025-05-28T18:05:04
+================================================================================
+[2025-05-28T18:05:58.004+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.40s           2025-05-28T18:05:35
+================================================================================
+[2025-05-28T18:06:28.787+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.21s           2025-05-28T18:06:05
+================================================================================
+[2025-05-28T18:06:58.887+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     39  0.01s             0           1  0.12s           2025-05-28T18:06:55
+================================================================================
+[2025-05-28T18:07:28.918+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.28s           2025-05-28T18:07:18
+================================================================================
+[2025-05-28T18:07:59.275+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.43s           2025-05-28T18:07:39
+================================================================================
+[2025-05-28T18:08:29.870+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.20s           2025-05-28T18:08:09
+================================================================================
+[2025-05-28T18:09:00.351+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.28s           2025-05-28T18:08:58
+================================================================================
+[2025-05-28T18:09:30.656+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.16s           2025-05-28T18:09:25
+================================================================================
+[2025-05-28T18:09:57.960+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T18:09:57.968+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T18:10:01.028+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.14s           2025-05-28T18:09:35
+================================================================================
+[2025-05-28T18:10:31.254+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.16s           2025-05-28T18:10:06
+================================================================================
+[2025-05-28T18:11:01.636+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.26s           2025-05-28T18:10:36
+================================================================================
+[2025-05-28T18:11:33.344+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py     56  0.04s             1           0  0.22s           2025-05-28T18:11:06
+================================================================================
+[2025-05-28T18:12:03.519+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.18s           2025-05-28T18:11:35
+================================================================================
+[2025-05-28T18:12:33.898+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.30s           2025-05-28T18:12:05
+================================================================================
+[2025-05-28T18:13:04.295+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.33s           2025-05-28T18:12:36
+================================================================================
+[2025-05-28T18:13:34.573+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.30s           2025-05-28T18:13:06
+================================================================================
+[2025-05-28T18:14:05.256+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.29s           2025-05-28T18:13:57
+================================================================================
+[2025-05-28T18:14:35.527+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.28s           2025-05-28T18:14:27
+================================================================================
+[2025-05-28T18:14:58.208+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T18:14:58.212+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T18:15:05.947+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.36s           2025-05-28T18:14:58
+================================================================================
+[2025-05-28T18:15:36.198+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.48s           2025-05-28T18:15:29
+================================================================================
+[2025-05-28T18:16:06.423+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.22s           2025-05-28T18:15:59
+================================================================================
+[2025-05-28T18:16:36.769+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.27s           2025-05-28T18:16:29
+================================================================================
+[2025-05-28T18:17:07.233+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.32s           2025-05-28T18:17:00
+================================================================================
+[2025-05-28T18:17:37.731+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.27s           2025-05-28T18:17:30
+================================================================================
+[2025-05-28T18:18:08.093+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.29s           2025-05-28T18:18:01
+================================================================================
+[2025-05-28T18:18:38.588+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.19s           2025-05-28T18:18:31
+================================================================================
+[2025-05-28T18:19:08.839+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.30s           2025-05-28T18:19:02
+================================================================================
+[2025-05-28T18:19:39.322+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.31s           2025-05-28T18:19:32
+================================================================================
+[2025-05-28T18:19:58.413+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T18:19:58.419+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T18:20:09.788+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.36s           2025-05-28T18:20:03
+================================================================================
+[2025-05-28T18:20:29.962+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T18:21:19.847+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T18:21:19.849+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T18:21:19.851+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T18:21:19.852+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T18:21:19.871+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T18:21:21.275+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py    162  0.06s             0           0
+================================================================================
+[2025-05-28T18:21:51.598+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    170  0.01s             1           0  0.35s           2025-05-28T18:21:21
+================================================================================
+[2025-05-28T18:22:22.136+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    184  0.05s             1           0  0.21s           2025-05-28T18:21:51
+================================================================================
+[2025-05-28T18:22:52.631+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    189  0.06s             1           0  0.24s           2025-05-28T18:22:22
+================================================================================
+[2025-05-28T18:23:23.181+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    194  0.10s             1           0  0.23s           2025-05-28T18:22:52
+================================================================================
+[2025-05-28T18:23:53.630+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    199  0.02s             1           0  0.25s           2025-05-28T18:23:23
+================================================================================
+[2025-05-28T18:24:23.958+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    204  0.03s             1           0  0.15s           2025-05-28T18:23:53
+================================================================================
+[2025-05-28T18:24:54.385+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    209  0.03s             1           0  0.18s           2025-05-28T18:24:24
+================================================================================
+[2025-05-28T18:25:09.353+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T18:30:47.765+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T18:30:47.771+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T18:30:47.774+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T18:30:47.776+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T18:30:47.808+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T18:30:49.324+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py    163  0.07s             0           0
+================================================================================
+[2025-05-28T18:31:19.950+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    177  0.02s             1           0  0.39s           2025-05-28T18:30:49
+================================================================================
+[2025-05-28T18:31:50.494+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.76s           2025-05-28T18:31:45
+================================================================================
+[2025-05-28T18:32:21.016+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  1.11s           2025-05-28T18:32:17
+================================================================================
+[2025-05-28T18:32:51.437+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.84s           2025-05-28T18:32:48
+================================================================================
+[2025-05-28T18:33:21.756+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  1.83s           2025-05-28T18:33:20
+================================================================================
+[2025-05-28T18:33:52.127+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    212  1.14s             1           0  1.83s           2025-05-28T18:33:20
+================================================================================
+[2025-05-28T18:34:22.693+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    217  0.16s             1           0  1.25s           2025-05-28T18:33:52
+================================================================================
+[2025-05-28T18:34:53.098+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  2.69s           2025-05-28T18:34:25
+================================================================================
+[2025-05-28T18:35:23.391+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  1.98s           2025-05-28T18:34:57
+================================================================================
+[2025-05-28T18:35:47.822+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T18:35:47.869+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T18:35:53.648+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.92s           2025-05-28T18:35:28
+================================================================================
+[2025-05-28T18:36:24.273+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  2.32s           2025-05-28T18:36:01
+================================================================================
+[2025-05-28T18:36:30.210+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T18:42:37.675+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T18:42:37.677+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T18:42:37.678+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T18:42:37.684+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T18:42:37.718+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T18:42:40.683+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py    162  0.12s             0           0
+================================================================================
+[2025-05-28T18:43:11.146+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    221  0.02s             1           0  0.51s           2025-05-28T18:42:41
+================================================================================
+[2025-05-28T18:43:41.723+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    226  0.02s             1           0  0.34s           2025-05-28T18:43:11
+================================================================================
+[2025-05-28T18:44:12.100+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    234  0.01s             1           0  0.34s           2025-05-28T18:43:42
+================================================================================
+[2025-05-28T18:44:42.871+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    239  0.04s             1           0  0.21s           2025-05-28T18:44:12
+================================================================================
+[2025-05-28T18:45:13.097+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.68s           2025-05-28T18:44:43
+================================================================================
+[2025-05-28T18:45:43.225+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  2.07s           2025-05-28T18:45:16
+================================================================================
+[2025-05-28T18:46:14.130+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  1.77s           2025-05-28T18:45:48
+================================================================================
+[2025-05-28T18:46:45.120+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  3.44s           2025-05-28T18:46:21
+================================================================================
+[2025-05-28T18:47:15.414+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  1.06s           2025-05-28T18:46:53
+================================================================================
+[2025-05-28T18:47:38.013+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T18:47:38.025+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T18:47:45.533+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  1.12s           2025-05-28T18:47:24
+================================================================================
+[2025-05-28T18:48:16.059+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  2.74s           2025-05-28T18:47:58
+================================================================================
+[2025-05-28T18:48:46.402+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.76s           2025-05-28T18:48:29
+================================================================================
+[2025-05-28T18:49:16.886+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.33s           2025-05-28T18:48:59
+================================================================================
+[2025-05-28T18:49:47.464+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.14s           2025-05-28T18:49:29
+================================================================================
+[2025-05-28T18:50:17.845+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.17s           2025-05-28T18:49:59
+================================================================================
+[2025-05-28T18:50:48.334+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.12s           2025-05-28T18:50:30
+================================================================================
+[2025-05-28T18:51:18.723+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.15s           2025-05-28T18:51:00
+================================================================================
+[2025-05-28T18:51:49.166+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.14s           2025-05-28T18:51:31
+================================================================================
+[2025-05-28T18:52:19.481+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.17s           2025-05-28T18:52:01
+================================================================================
+[2025-05-28T18:52:38.769+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T18:52:38.786+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T18:52:49.996+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.13s           2025-05-28T18:52:31
+================================================================================
+[2025-05-28T18:53:20.527+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.22s           2025-05-28T18:53:02
+================================================================================
+[2025-05-28T18:53:51.189+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.19s           2025-05-28T18:53:33
+================================================================================
+[2025-05-28T18:54:21.799+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.17s           2025-05-28T18:54:03
+================================================================================
+[2025-05-28T18:54:52.212+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.21s           2025-05-28T18:54:34
+================================================================================
+[2025-05-28T18:55:22.750+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.19s           2025-05-28T18:55:04
+================================================================================
+[2025-05-28T18:55:53.127+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.19s           2025-05-28T18:55:35
+================================================================================
+[2025-05-28T18:56:23.582+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.17s           2025-05-28T18:56:05
+================================================================================
+[2025-05-28T18:56:46.613+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T18:56:56.617+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T18:56:56.617+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T18:56:56.618+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T18:56:56.618+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T18:56:56.622+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T18:56:57.054+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py    163  0.04s             0           0
+================================================================================
+[2025-05-28T18:57:27.466+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    168  0.04s             1           0  0.11s           2025-05-28T18:56:57
+================================================================================
+[2025-05-28T18:57:57.898+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    248  0.02s             1           0  0.19s           2025-05-28T18:57:27
+================================================================================
+[2025-05-28T18:58:28.346+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    298  0.06s             1           0  0.17s           2025-05-28T18:57:58
+================================================================================
+[2025-05-28T18:58:58.799+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    303  0.03s             1           0  0.21s           2025-05-28T18:58:28
+================================================================================
+[2025-05-28T18:59:29.167+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    308  0.03s             1           0  0.19s           2025-05-28T18:58:58
+================================================================================
+[2025-05-28T18:59:59.773+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.19s           2025-05-28T18:59:44
+================================================================================
+[2025-05-28T19:00:30.726+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.06s           2025-05-28T19:00:12
+================================================================================
+[2025-05-28T19:01:00.863+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.45s           2025-05-28T19:00:59
+================================================================================
+[2025-05-28T19:01:31.063+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.24s           2025-05-28T19:01:30
+================================================================================
+[2025-05-28T19:01:56.716+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T19:01:56.724+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T19:02:01.813+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.33s           2025-05-28T19:01:42
+================================================================================
+[2025-05-28T19:02:31.847+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.26s           2025-05-28T19:02:13
+================================================================================
+[2025-05-28T19:03:02.479+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.19s           2025-05-28T19:02:53
+================================================================================
+[2025-05-28T19:03:32.950+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.10s           2025-05-28T19:03:23
+================================================================================
+[2025-05-28T19:04:03.402+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.34s           2025-05-28T19:03:41
+================================================================================
+[2025-05-28T19:04:34.003+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.20s           2025-05-28T19:04:11
+================================================================================
+[2025-05-28T19:05:04.446+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.22s           2025-05-28T19:04:42
+================================================================================
+[2025-05-28T19:05:34.955+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.19s           2025-05-28T19:05:12
+================================================================================
+[2025-05-28T19:06:05.736+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.23s           2025-05-28T19:05:43
+================================================================================
+[2025-05-28T19:06:36.134+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.19s           2025-05-28T19:06:14
+================================================================================
+[2025-05-28T19:06:54.368+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T19:07:00.537+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T19:07:00.538+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T19:07:00.538+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T19:07:00.539+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T19:07:00.543+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T19:07:00.925+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py    163  0.04s             0           0
+================================================================================
+[2025-05-28T19:07:31.241+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    168  0.01s             1           0  0.11s           2025-05-28T19:07:00
+================================================================================
+[2025-05-28T19:08:01.795+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    173  0.04s             1           0  0.15s           2025-05-28T19:07:31
+================================================================================
+[2025-05-28T19:08:32.139+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    298  0.04s             1           0  0.19s           2025-05-28T19:08:01
+================================================================================
+[2025-05-28T19:09:02.615+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    303  0.06s             1           0  0.22s           2025-05-28T19:08:32
+================================================================================
+[2025-05-28T19:09:33.079+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    308  0.05s             1           0  0.22s           2025-05-28T19:09:02
+================================================================================
+[2025-05-28T19:10:03.485+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    313  0.03s             1           0  0.21s           2025-05-28T19:09:33
+================================================================================
+[2025-05-28T19:10:34.115+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    318  0.06s             1           0  0.15s           2025-05-28T19:10:03
+================================================================================
+[2025-05-28T19:10:41.768+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T19:10:47.047+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T19:10:47.047+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T19:10:47.047+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T19:10:47.048+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T19:10:47.051+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T19:10:47.410+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py    163  0.03s             0           0
+================================================================================
+[2025-05-28T19:11:17.839+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    168  0.03s             1           0  0.10s           2025-05-28T19:10:47
+================================================================================
+[2025-05-28T19:11:48.298+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    294  0.06s             1           0  0.16s           2025-05-28T19:11:17
+================================================================================
+[2025-05-28T19:12:18.846+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    299  0.04s             1           0  0.23s           2025-05-28T19:11:48
+================================================================================
+[2025-05-28T19:12:49.247+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    304  0.04s             1           0  0.22s           2025-05-28T19:12:19
+================================================================================
+[2025-05-28T19:13:19.712+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    309  0.01s             1           0  0.19s           2025-05-28T19:12:49
+================================================================================
+[2025-05-28T19:13:50.157+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    314  0.06s             1           0  0.12s           2025-05-28T19:13:19
+================================================================================
+[2025-05-28T19:14:20.597+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    439  0.01s             1           0  0.22s           2025-05-28T19:13:50
+================================================================================
+[2025-05-28T19:14:51.195+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    444  0.02s             1           0  0.13s           2025-05-28T19:14:20
+================================================================================
+[2025-05-28T19:15:12.048+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T19:15:17.020+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T19:15:17.021+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T19:15:17.021+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T19:15:17.021+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T19:15:17.025+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T19:15:17.422+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py    163  0.03s             0           0
+================================================================================
+[2025-05-28T19:15:47.902+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.09s           2025-05-28T19:15:39
+================================================================================
+[2025-05-28T19:16:18.415+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.14s           2025-05-28T19:16:10
+================================================================================
+[2025-05-28T19:16:48.945+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.38s           2025-05-28T19:16:29
+================================================================================
+[2025-05-28T19:17:15.290+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T19:18:13.315+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T19:18:13.318+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T19:18:13.324+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T19:18:13.325+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T19:18:13.335+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T19:18:17.607+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py    162  0.33s             0           0
+================================================================================
+[2025-05-28T19:18:47.734+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.78s           2025-05-28T19:18:18
+================================================================================
+[2025-05-28T19:19:18.649+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    292  0.02s             1           0  0.18s           2025-05-28T19:18:48
+================================================================================
+[2025-05-28T19:19:49.113+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    297  0.02s             1           0  0.19s           2025-05-28T19:19:18
+================================================================================
+[2025-05-28T19:20:19.469+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    545  0.01s             1           0  0.18s           2025-05-28T19:19:49
+================================================================================
+[2025-05-28T19:20:49.917+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    789  0.04s             1           0  0.13s           2025-05-28T19:20:19
+================================================================================
+[2025-05-28T19:21:20.197+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    915  0.02s             1           0  0.19s           2025-05-28T19:20:50
+================================================================================
+[2025-05-28T19:21:50.708+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py   1041  0.05s             1           0  0.13s           2025-05-28T19:21:20
+================================================================================
+[2025-05-28T19:22:21.404+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py   1046  0.05s             1           0  0.20s           2025-05-28T19:21:50
+================================================================================
+[2025-05-28T19:22:51.926+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py   1051  0.05s             1           0  0.20s           2025-05-28T19:22:21
+================================================================================
+[2025-05-28T19:23:14.199+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T19:23:14.216+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T19:23:22.440+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py   1056  0.05s             1           0  0.23s           2025-05-28T19:22:52
+================================================================================
+[2025-05-28T19:23:53.155+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py   1061  0.05s             1           0  0.22s           2025-05-28T19:23:22
+================================================================================
+[2025-05-28T19:24:23.614+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py   1066  0.05s             1           0  0.27s           2025-05-28T19:23:53
+================================================================================
+[2025-05-28T19:24:53.935+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.51s           2025-05-28T19:24:38
+================================================================================
+[2025-05-28T19:25:24.058+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.22s           2025-05-28T19:25:09
+================================================================================
+[2025-05-28T19:25:54.583+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.25s           2025-05-28T19:25:39
+================================================================================
+[2025-05-28T19:26:25.091+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.21s           2025-05-28T19:26:10
+================================================================================
+[2025-05-28T19:26:55.493+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.18s           2025-05-28T19:26:40
+================================================================================
+[2025-05-28T19:27:25.958+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.26s           2025-05-28T19:27:10
+================================================================================
+[2025-05-28T19:27:56.602+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.23s           2025-05-28T19:27:41
+================================================================================
+[2025-05-28T19:28:14.961+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T19:28:14.972+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T19:28:27.164+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.18s           2025-05-28T19:28:12
+================================================================================
+[2025-05-28T19:28:57.641+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           0           1  0.09s           2025-05-28T19:28:53
+================================================================================
+[2025-05-28T19:29:28.401+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.20s           2025-05-28T19:29:27
+================================================================================
+[2025-05-28T19:29:58.786+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.18s           2025-05-28T19:29:57
+================================================================================
+[2025-05-28T19:30:29.277+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.22s           2025-05-28T19:30:28
+================================================================================
+[2025-05-28T19:30:59.766+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py   1638  0.01s             0           1  0.13s           2025-05-28T19:30:58
+================================================================================
+[2025-05-28T19:31:30.399+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.36s           2025-05-28T19:31:08
+================================================================================
+[2025-05-28T19:32:01.110+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.33s           2025-05-28T19:31:38
+================================================================================
+[2025-05-28T19:32:31.553+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.18s           2025-05-28T19:32:09
+================================================================================
+[2025-05-28T19:33:01.922+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.15s           2025-05-28T19:32:39
+================================================================================
+[2025-05-28T19:33:15.229+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T19:33:15.236+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T19:33:32.417+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.24s           2025-05-28T19:33:10
+================================================================================
+[2025-05-28T19:34:02.850+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.19s           2025-05-28T19:33:40
+================================================================================
+[2025-05-28T19:34:33.259+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.21s           2025-05-28T19:34:11
+================================================================================
+[2025-05-28T19:35:03.716+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.16s           2025-05-28T19:34:41
+================================================================================
+[2025-05-28T19:35:34.222+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.25s           2025-05-28T19:35:12
+================================================================================
+[2025-05-28T19:36:04.708+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.22s           2025-05-28T19:35:42
+================================================================================
+[2025-05-28T19:36:19.539+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-28T19:38:47.446+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-05-28T19:38:47.448+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-05-28T19:38:47.450+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-28T19:38:47.453+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T19:38:47.467+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T19:38:48.928+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/pl_spark_mrp_colors.py    163  0.04s             0           0
+================================================================================
+[2025-05-28T19:39:19.333+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    287  0.01s             1           0  0.34s           2025-05-28T19:38:49
+================================================================================
+[2025-05-28T19:39:49.346+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.72s           2025-05-28T19:39:20
+================================================================================
+[2025-05-28T19:40:19.611+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.30s           2025-05-28T19:39:50
+================================================================================
+[2025-05-28T19:40:50.099+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.35s           2025-05-28T19:40:21
+================================================================================
+[2025-05-28T19:41:20.607+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  1.61s           2025-05-28T19:40:52
+================================================================================
+[2025-05-28T19:41:51.009+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  3.48s           2025-05-28T19:41:42
+================================================================================
+[2025-05-28T19:42:21.076+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  3.70s           2025-05-28T19:42:16
+================================================================================
+[2025-05-28T19:42:51.184+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  2.96s           2025-05-28T19:42:49
+================================================================================
+[2025-05-28T19:43:21.361+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py    514  1.39s             1           0  2.96s           2025-05-28T19:42:49
+================================================================================
+[2025-05-28T19:43:47.891+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T19:43:47.954+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T19:43:52.258+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  5.17s           2025-05-28T19:43:25
+================================================================================
+[2025-05-28T19:44:22.693+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  2.09s           2025-05-28T19:43:57
+================================================================================
+[2025-05-28T19:44:53.456+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  2.53s           2025-05-28T19:44:30
+================================================================================
+[2025-05-28T19:45:24.198+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.93s           2025-05-28T19:45:01
+================================================================================
+[2025-05-28T19:45:55.050+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  1.18s           2025-05-28T19:45:33
+================================================================================
+[2025-05-28T19:46:25.665+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  1.34s           2025-05-28T19:46:05
+================================================================================
+[2025-05-28T19:46:55.897+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.34s           2025-05-28T19:46:36
+================================================================================
+[2025-05-28T19:47:26.570+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.10s           2025-05-28T19:47:06
+================================================================================
+[2025-05-28T19:47:56.980+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.22s           2025-05-28T19:47:36
+================================================================================
+[2025-05-28T19:48:27.482+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.20s           2025-05-28T19:48:07
+================================================================================
+[2025-05-28T19:48:48.582+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T19:48:48.826+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T19:48:58.114+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.22s           2025-05-28T19:48:37
+================================================================================
+[2025-05-28T19:49:28.513+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.21s           2025-05-28T19:49:08
+================================================================================
+[2025-05-28T19:49:59.029+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.22s           2025-05-28T19:49:38
+================================================================================
+[2025-05-28T19:50:29.452+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.20s           2025-05-28T19:50:09
+================================================================================
+[2025-05-28T19:50:59.831+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.50s           2025-05-28T19:50:40
+================================================================================
+[2025-05-28T19:51:30.248+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.20s           2025-05-28T19:51:11
+================================================================================
+[2025-05-28T19:52:00.906+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.26s           2025-05-28T19:51:41
+================================================================================
+[2025-05-28T19:52:31.529+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.20s           2025-05-28T19:52:12
+================================================================================
+[2025-05-28T19:53:02.044+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.24s           2025-05-28T19:52:42
+================================================================================
+[2025-05-28T19:53:32.484+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.23s           2025-05-28T19:53:13
+================================================================================
+[2025-05-28T19:53:48.772+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T19:53:48.793+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T19:54:02.978+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.29s           2025-05-28T19:53:43
+================================================================================
+[2025-05-28T19:54:33.526+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.30s           2025-05-28T19:54:14
+================================================================================
+[2025-05-28T19:55:04.071+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.20s           2025-05-28T19:54:44
+================================================================================
+[2025-05-28T19:55:34.519+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.24s           2025-05-28T19:55:15
+================================================================================
+[2025-05-28T19:56:04.987+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.24s           2025-05-28T19:55:45
+================================================================================
+[2025-05-28T19:56:35.336+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.09s           2025-05-28T19:56:16
+================================================================================
+[2025-05-28T19:57:05.816+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.21s           2025-05-28T19:56:46
+================================================================================
+[2025-05-28T19:57:36.293+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.17s           2025-05-28T19:57:17
+================================================================================
+[2025-05-28T19:58:06.778+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.11s           2025-05-28T19:57:47
+================================================================================
+[2025-05-28T19:58:37.220+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.18s           2025-05-28T19:58:18
+================================================================================
+[2025-05-28T19:58:49.457+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T19:58:49.468+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T19:59:07.723+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.18s           2025-05-28T19:58:48
+================================================================================
+[2025-05-28T19:59:38.180+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.21s           2025-05-28T19:59:19
+================================================================================
+[2025-05-28T20:00:08.696+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.17s           2025-05-28T19:59:49
+================================================================================
+[2025-05-28T20:00:39.144+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.19s           2025-05-28T20:00:20
+================================================================================
+[2025-05-28T20:01:09.755+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.25s           2025-05-28T20:00:50
+================================================================================
+[2025-05-28T20:01:40.253+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.20s           2025-05-28T20:01:21
+================================================================================
+[2025-05-28T20:02:10.829+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.15s           2025-05-28T20:01:51
+================================================================================
+[2025-05-28T20:02:41.303+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.11s           2025-05-28T20:02:22
+================================================================================
+[2025-05-28T20:03:11.792+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.19s           2025-05-28T20:02:52
+================================================================================
+[2025-05-28T20:03:42.410+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.23s           2025-05-28T20:03:23
+================================================================================
+[2025-05-28T20:03:49.509+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2025-05-28T20:03:49.531+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2025-05-28T20:04:12.973+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.17s           2025-05-28T20:03:53
+================================================================================
+[2025-05-28T20:04:43.447+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/pl_spark_mrp_colors.py                           1           0  0.16s           2025-05-28T20:04:24
+================================================================================

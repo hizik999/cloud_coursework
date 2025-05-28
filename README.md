@@ -1,7 +1,7 @@
 # курсач по облачным технологиям
 
 Инструменты:
-- duckdb
+- clickhouse
 - airflow
 - spark
 - minio
